@@ -1,13 +1,10 @@
 import React, {useState} from "react";
-import s from "./Personal.css"
+import "./Personal.css"
 import Radium from "radium";
 
  const Person = (props) => {
-//    debugger;
+    const [count, setCount] =  useState(4)
 
- const [count, setCount] =  useState(4)
-//  debugger;
-console.log(s.person, "!!!!!!!!!!!!!!!!!!!!!!!!")
  let decrementCount = (props) => {
     return(
         setCount(count - 1)

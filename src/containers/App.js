@@ -50,10 +50,7 @@ import  Cockpit from "./../components/Cockpit/Cockpit.js"
 	  
 		render () {
 		
-
 let persons = null;
-
-// debugger;
 if (this.state.showPersons) {
 	persons = (
 		<div>

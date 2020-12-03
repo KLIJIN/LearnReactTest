@@ -20,7 +20,7 @@ const Cockpit =(props) => {
 
     }
 
-    console.log( "showPersons", props.showPersons)
+console.log( "showPersons", props.showPersons)
  return(
     
     <div>
